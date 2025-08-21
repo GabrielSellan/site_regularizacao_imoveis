@@ -3163,11 +3163,11 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/sao_paulo.jpg");
+		background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/sao_paulo.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		color: #ffffff;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3177,7 +3177,7 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #ffffff;
 		}
 
 		#banner h2 {
@@ -3223,6 +3223,7 @@
 				background: #fff;
 				color: #666 !important;
 			}
+			
 
 /* Main */
 
@@ -3303,7 +3304,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #00A4AE;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
